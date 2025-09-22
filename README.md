@@ -43,35 +43,31 @@
 - Status (Ativo/Inativo)
 - Observações
 
+
 ## ▶️ Como Rodar o Projeto
 
-### 1️⃣ Clonar o repositório
-```bash
-git clone https://github.com/seu-usuario/matricula.git
+1️⃣ Clonar o repositório  
+git clone https://github.com/seu-usuario/matricula.git  
 cd matricula
-2️⃣ Criar e ativar o ambiente virtual
-Windows
 
-bash
-Copy code
-python -m venv venv
-venv\Scripts\activate
-Linux/Mac
+2️⃣ Criar e ativar o ambiente virtual  
 
-bash
-Copy code
-python -m venv venv
+**Windows**  
+python -m venv venv  
+venv\Scripts\activate  
+
+**Linux/Mac**  
+python -m venv venv  
 source venv/bin/activate
-3️⃣ Instalar dependências
-bash
-Copy code
+
+3️⃣ Instalar dependências  
 pip install -r requirements.txt
-4️⃣ Migrar o banco de dados
-bash
-Copy code
+
+4️⃣ Migrar o banco de dados  
 python manage.py migrate
-5️⃣ Rodar o servidor
-bash
-Copy code
+
+5️⃣ Rodar o servidor  
 python manage.py runserver
-O sistema estará disponível em: http://127.0.0.1:8000
+
+6️⃣ Acessar o sistema  
+Abra seu navegador e vá para: [http://127.0.0.1:8000](http://127.0.0.1:8000)
